@@ -1,0 +1,36 @@
+Content first summary.
+
+This is some source text, for an experiement to prototype ideas for the content first initiative.
+
+The content first initiative promotes content that is layered with metadata. <ef platform="mobile">We take raw content, and apply the following layers to it:
+
+- context and platform (devices)
+- hierachy
+- semantics
+- presentation</ef>
+
+Metadata layers.
+
+The following outlines the metadata layers and their role in the layered metadata.
+
+The first layer is context and platform.
+
+Through the use of two primary tags ii (include in) and ef (exclude from), we can boundry content that should either be included or excluded from the final content produced based on two perspectives, context and platform.
+
+<ef platform="mobile">Context can be used to imply custom contexts in which text can be filtered. For example, content that is appropriate for logged in users, but should be excluded for those not logged in. Platform can be used to filter text based on the device / platform a user is reading the text.</ef>
+
+The second layer is hierachy.
+
+Hierachy is present is all text. It is required to convey structure to a piece of text. It is similar to gramar to imply meaning in text. <ef platform="mobile">Hierachy should be applied to text to determine headings, paragraphs, important text, sub-text and other document related hierachy.</ef>
+
+The third layer is semantics.
+
+Semantics is the third layer in which additional meaning, expressed in HTML should be applied to the text. <ef platform="mobile">Semantic meaning should be applied through non-presentational HTML tags such as link, rel, etc.</ef>
+
+The fourth and final layer is presentation.
+
+Presentation is the final layer. It should be expressed in HTML using presentational HTML tags such as bold, italics, unordered lists, etc.
+
+Syntax.
+
+For content first filtering, you need to take raw text and apply metadata to it. The context and platform metadata is the first layer to be applied. We're proposing two models for the syntax. Tag based annotation, and markdown style annotation.
