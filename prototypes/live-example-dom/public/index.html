@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    	<title>Content first live example</title>
+    	<meta charset="utf-8">
+    	<!-- use bootstrap -->
+    	<link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  	</head>
+  	<body>
+    	
+  		<div class="navbar">
+  			<div class="navbar-inner">
+  				<div class="container">
+  					<a class="brand" href="#">Content first</a>
+  				</div>
+  			</div>
+  		</div>
+
+    	<div class="container">
+    		<h1>Content first live example</h1>
+        <p>This example used the DOM and JavaScript to apply content first processing. Using the DOM and JavaScript in this manner is only appropriate when the content is in HTML form.</p>
+    		<p>Use the form below, to see content first processing applied to the HTML within this page.</p>
+
+    		<h2>Content configuration</h2>
+    		<form class="form-inline">
+    			<fieldset>
+    				<legend>Devices</legend>
+    				<label>
+    					<input type="radio" name="devices" value="desktop"> Desktop
+    				</label>
+    				<label>
+    					<input type="radio" name="devices" value="tablet"> Tablet
+    				</label>
+    				<label>
+    					<input type="radio" name="devices" value="mobile"> Mobile
+    				</label>
+    			</fieldset>
+    		</form>
+
+        <div id="hidden-container" style="display: none;"></div>
+
+    		<h2>Filtered content</h2>
+
+        <div id="filtered-content-container"></div>
+
+    		<h2>Content source</h2>
+
+        <div id="content-source-container"><pre></pre></div>
+
+        <h2>Processed source</h2>
+
+        <div id="processed-source-container"><pre>No device configurations have been selected as yet.</pre></div>
+
+    	</div>
+
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.3/underscore-min.js"></script>
+    	<script src="/js/bootstrap.min.js"></script>
+      <script src="/js/contentfirst-lib.js"></script>
+      <script src="/js/app.js"></script>
+  	</body>
+</html>
