@@ -16,8 +16,10 @@ Content first processing then filters the text on the first layer so that text, 
 Prototypes
 ----------
 
+- [DOM-based parser][domparser]
 - [live processing via the DOM][domprocessinglive]
 - [static REST API to demonstrate core concepts][staticrestapi]
 
+[domparser]: https://github.com/thememphisagency/contentfirst/tree/master/prototypes/dom-parser
 [domprocessinglive]: https://github.com/thememphisagency/contentfirst/tree/master/prototypes/live-example-dom
 [staticrestapi]: https://github.com/thememphisagency/contentfirst/tree/master/prototypes/static-rest-api
